@@ -1,0 +1,19 @@
+.navele {
+background-color: rgba(128, 128, 128, 0.905);
+font-family: 'Markazi Text', serif;
+font-size: 24px;
+font-weight: 600;
+
+}
+
+.navlink{
+  color: #495E57 !important;
+}
+
+.navlink:hover{
+  color: rgb(213, 206, 206) !important;
+}
+
+.navlink:active{
+  color: rgb(255, 255, 255) !important;
+}

@@ -1,5 +1,18 @@
-function Main () {
+import React from 'react';
+import './Main.css';
+import HeaderMain from './HeaderMain';
+import MenuItems from '../menu/Menu'
 
+
+function Main() {
+	return (
+		<>
+    <div style={{backgroundColor:'#495E57'}}>
+			<HeaderMain />
+      <MenuItems />
+    </div>
+		</>
+	);
 }
 
 export default Main;

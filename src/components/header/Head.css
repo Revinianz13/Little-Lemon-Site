@@ -1,0 +1,20 @@
+*{
+font-family: 'Markazi Text', serif;
+font-size: 24px;
+font-weight: 600;
+}
+
+.image-wrapper {
+  max-height: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.carou{
+  margin-right: 0;
+}
+.image-wrapper img {
+  max-height: 100%;
+  width: auto;
+}
