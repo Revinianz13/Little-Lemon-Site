@@ -24,7 +24,7 @@
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  width: 50%;
+  width: 100%;
 }
 
 .buttonforNew:hover,

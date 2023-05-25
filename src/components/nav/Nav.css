@@ -5,7 +5,9 @@ font-size: 24px;
 font-weight: 600;
 
 }
-
+.custom-nav {
+  margin-left: auto;
+}
 .navlink{
   color: #495E57 !important;
 }

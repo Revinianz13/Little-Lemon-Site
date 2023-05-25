@@ -1,6 +1,6 @@
 import React from 'react';
 import './Main.css';
-import HeaderMain from './HeaderMain';
+import HeaderMain from './Specials';
 import MenuItems from '../menu/Menu'
 
 

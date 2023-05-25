@@ -6,7 +6,7 @@ import restmin from '../../images/RestMid.jpg';
 import delivery from '../../images/delivery.jpg';
 import table from '../../images/table.jpg';
 import './Head.css';
-import ButtonEle from '../Buttons/ButtonEle';
+import ButtonEle from '../Buttons/ButtonEle'
 
 function Header() {
 	const [index, setIndex] = useState(0);
@@ -18,13 +18,15 @@ function Header() {
 	return (
 		<Carousel activeIndex={index} onSelect={handleSelect} className='carou'>
 			<Carousel.Item>
-				<div className='image-wrapper'>
-					<Image src={table} />
-				</div>
+			<div className='image-wrapper'>
+      <div className='image-container'>
+        <Image src={table}/>
+      </div>
+    </div>
 				<Carousel.Caption>
-					<h3>Book A table.</h3>
+					<h3>Reservations</h3>
 					<p>You can choose between many options.</p>
-          <ButtonEle name={'Book a Table'} />
+          <ButtonEle name={'Book a Table'} value={"Book"}/>
 				</Carousel.Caption>
 			</Carousel.Item>
 			<Carousel.Item>
